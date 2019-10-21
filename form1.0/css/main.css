@@ -1,0 +1,109 @@
+body {
+    background-color: #eeeeee;
+    margin: 0 15% ;
+}
+
+fieldset {
+    background-color: #dddddd;
+    margin: 2% 0;
+    border: none;
+
+}
+
+.field-title {
+    background: darkblue;
+    padding: 0.5em;
+    color: #eeeeee;
+}
+
+.fields {
+    background: white;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+fieldset ,.field-title ,.fields {
+    border-radius: 0.325em;
+}
+
+.fields .row {
+    margin: 0.5em 0;
+
+}
+
+.instruction {
+    margin-top:0;
+    margin-left: 40%;
+    font-size: small;
+    font-style: italic;
+}
+
+label  {
+    display: inline-block;
+    padding: 2px 6px;
+    margin-bottom: 2px;
+    width: 40%;
+    text-align: right;
+    font-size: large;
+    vertical-align: top;
+}
+
+
+
+/*input[type="radio"] {*/
+/*    display: inline-block;*/
+/*}*/
+
+.radio-box {
+    width: 57%;
+    float: right;
+}
+
+
+
+input, select, button {
+    font-size: inherit;
+}
+
+.checkboxes {
+    margin-left: 2em;
+    margin-top: 0.325em;
+}
+.checkboxes+label, input[type="radio"]+label {
+    text-align: left;
+    width: auto;
+}
+
+.radios {
+    background-color: transparent;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.btn {
+    background-color: darkblue;
+    height: 50px;
+    width: 200px;
+    color: #eeeeee;
+    border: darkblue;
+    border-radius: 2px;
+    margin: 20px;
+    float: right;
+}
+
+
+
+
+
+
+.field-large {
+    width: 250px;
+}
+
+.field-medium {
+    width: 150px;
+}
+
+.field-small {
+    width: 75px;
+}

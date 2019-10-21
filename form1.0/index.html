@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Create a new account</h1>
+    <form method="post" enctype="multipart/form-data">
+        <fieldset class="account">
+<!--            account field-->
+            <h2 class="field-title">ACCOUNT</h2>
+            <div class="fields">
+                <p class="row">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" class="field-large">
+                </p>
+                <p class="row">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" class="field-large">
+                </p>
+                <p class="row">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" class="field-large">
+                </p>
+                <p class="row">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" class="field-large">
+                </p>
+                <p class="row">
+                    <label for="re-password">Re-enter Password:</label>
+                    <input type="password" id="re-password" name="re-password" class="field-large">
+                </p>
+            </div>
+        </fieldset>
+        <fieldset class="address">
+<!--            Address field-->
+            <h2 class="field-title">ADDRESS</h2>
+            <div class="fields">
+                <p class="row">
+                    <label for="street-address">Street Address:</label>
+                    <input type="text" id="street-address" name="street-address" class="field-large">
+                </p>
+                <p class="row">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" class="field-medium">
+                </p>
+                <p class="row">
+                    <label for="state">State:</label>
+                    <select id="state" name="state">
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="LA">Los Angles</option>
+                        <option value="NE">Nebraska</option>
+                    </select>
+                </p>
+                <p class="row">
+                    <label for="zipcode">Zip code:</label>
+                    <input type="number" id="zipcode" name="zipcode" class="field-small">
+                </p>
+            </div>
+        </fieldset>
+        <fieldset class="profile">
+<!--            Public Profile-->
+            <h2 class="field-title">Public Profile</h2>
+            <div class="fields">
+                <p class="row">
+                    <label for="picture">Picture:</label>
+                    <input type="file" id="picture" name="picture" class="field-large">
+                </p>
+                <p class="instruction">Maximum size of 700k,JPG,GIF or PNG.</p>
+                <p class="row">
+                    <label for="screen-name">Screen Name:</label>
+                    <input type="text" id="screen-name" name="screen-name" class="field-medium">
+                </p>
+                <p class="row">
+                    <label for="user-website">Website URL:</label>
+                    <input type="url" id="user-website" name="user-website" class="field-large">
+                </p>
+                <p class="instruction">Have a homepage or a blog?</p>
+
+                <p class="row">
+                    <label for="bio">Bio:</label>
+                    <textarea id="bio" name="bio" cols="40" rows="5" class="field-large"></textarea>
+                </p>
+                <div class="row">
+                    <fieldset class="radios">
+                        <label>Gender:</label>
+                            <div class="radio-box">
+                                <input type="radio" id="gender-male" name="gender" value="male">
+                                <label for="gender-male">Male</label>
+                                <input type="radio" id="gender-female" name="gender-female" value="male">
+                                <label for="gender-female">Female</label>
+                            </div>
+                    </fieldset>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="permission">
+            <h2 class="field-title">EMAILS PERMISSION</h2>
+            <div class="fields">
+                <p class="row">
+                    <input type="checkbox" id="email-from-us" name="email-from-us" class="checkboxes">
+                    <label for="email-from-us">It is okay to email me.</label>
+                </p>
+                <p class="row">
+                    <input type="checkbox" id="email-updates" name="email-updates" class="checkboxes">
+                    <label for="email-updates">It is okay to email me with our updates.</label>
+                </p>
+
+            </div>
+        </fieldset>
+
+
+        <input type="submit" value="Create account" class="btn">
+    </form>
+</body>
+</html>
