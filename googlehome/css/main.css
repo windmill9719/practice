@@ -131,7 +131,19 @@ a{
     background-color: #eee;
     border-top: 1px solid #e4e4e4;
     height: 45px;
+    /*overflow: hidden;*/
 }
 .footer-bar a{
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 25px;
+    font-size: 13px;
     color: #666;
+}
+.region{
+    font-size: 15px;
+    padding: 13px 25px;
+}
+.footer-bar a:last-child{
+    padding-right: 25px;
 }
